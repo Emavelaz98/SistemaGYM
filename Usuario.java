@@ -82,6 +82,8 @@ public class Usuario extends JFrame implements ActionListener{
 				JOptionPane.showMessageDialog(null, "          Ingrese Usuario");
 			}else if(text2.equals("")){
 				JOptionPane.showMessageDialog(null, "       Ingrese Contraceña");
+			}else{
+				JOptionPane.showMessageDialog(null, "     Bienvenido");
 			}
 		}
 	}
